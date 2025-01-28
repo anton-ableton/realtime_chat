@@ -1,0 +1,91 @@
+.create-chat-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.create-chat-container {
+  background: white;
+  padding: 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  height: 600px;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-chat-title {
+  font-weight: bold;
+  color: #666666;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.create-chat-container h2 {
+  margin-top: 0;
+}
+
+.create-chat-input,
+.create-chat-search {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.warning {
+  color: red;
+  margin: 10px 0;
+}
+
+.participants {
+  margin: 10px 0;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.participants label {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.participants label.selected {
+  background-color: #5eacff;
+  color: white;
+}
+
+.create-chat-button-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 217, 170);
+  color: #333333;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: auto;
+}

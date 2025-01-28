@@ -1,0 +1,58 @@
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/background_chat_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.message-input {
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.message-input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.send-button {
+  padding: 1px;
+  cursor: pointer;
+}
+
+.emoji-button {
+  padding: 3px;
+  cursor: pointer;
+}
+
+.emoji-container {
+  position: relative;
+}
+
+.emoji-picker {
+  position: absolute;
+  top: -470px;
+  left: -245px;
+  z-index: 1000;
+}
+
+.join-button {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  cursor: pointer;
+}

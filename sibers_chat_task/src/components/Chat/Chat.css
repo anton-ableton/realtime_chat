@@ -1,0 +1,15 @@
+.chat-container {
+  display: flex;
+  height: 100vh;
+}
+
+.chat-windows {
+  display: flex;
+  flex: 1;
+}
+
+.resize-handle {
+  width: 1px;
+  background-color: #ddd;
+  cursor: col-resize;
+}

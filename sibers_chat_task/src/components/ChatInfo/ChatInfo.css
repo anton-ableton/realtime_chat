@@ -1,0 +1,163 @@
+.chat-info-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.chat-info-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 410px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-info-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #dddddd;
+}
+
+.chat-info-search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.chat-info-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.chat-info-name {
+  margin: 0;
+  font-weight: bold;
+}
+
+.chat-info-members-container {
+  flex-grow: 1;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-info-members {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chat-info-member {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-info-user-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-info-username {
+  flex: 1;
+}
+
+.chat-info-admin-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+.chat-info-remove-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.chat-info-delete-button {
+  background: #ff4c4c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.chat-info-delete-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.chat-info-close-button {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirmation-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.confirmation-dialog p {
+  margin: 0 0 20px;
+}
+
+.confirmation-dialog button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirmation-dialog button:first-child {
+  background: #ff0000;
+  color: #fff;
+}
+
+.confirmation-dialog button:last-child {
+  background: #ddd;
+  color: #000;
+}

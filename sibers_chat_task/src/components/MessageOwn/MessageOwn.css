@@ -1,0 +1,41 @@
+.message-own {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.message-own-content {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 15px 15px 0 15px;
+  background-color: #f0fcdc;
+  color: #000;
+  position: relative;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.message-own-content::before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-top: 20px solid #f0fcdc;
+}
+
+.message-own-text {
+  margin: 0;
+  font-size: 14px;
+  padding-right: 40px;
+}
+
+.message-own-time {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 12px;
+  color: #999;
+}

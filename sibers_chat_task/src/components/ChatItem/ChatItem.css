@@ -1,0 +1,41 @@
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.chat-item:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+.chat-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-right: 10px;
+  background-color: #dddddd;
+}
+
+.chat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-name {
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 3px;
+}
+
+.chat-description {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.blue-text {
+  color: rgb(116, 116, 255);
+}
