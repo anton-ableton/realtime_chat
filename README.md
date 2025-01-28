@@ -1,4 +1,4 @@
-# Sibers Chat Task
+# Realtime Chat
 
 ## Overview
 Sibers Chat Task is a real-time chat application built using modern web technologies. It allows users to create and join chat rooms, send messages, and manage participants. The application is built with a React frontend and an Express backend, utilizing Socket.IO for real-time communication and MongoDB for data storage.
